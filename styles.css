@@ -1,0 +1,48 @@
+
+/*flexboxes*/
+
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #container > div {
+    font-size: 16px;
+    margin: 10px;
+    background-color: rgb(60, 151, 231);
+    padding: 30px;
+    width: 200px;
+    border-radius: 20px;
+  }
+
+  /*Table styles*/
+
+  table {
+    border: 1px solid black;
+  }
+  td {
+    border: 0.02px solid black;
+    padding: 2px;
+  }
+
+  /*Responsive*/
+
+  @media (max-width: 400px) {
+    body {
+      background-color: rgb(198, 152, 93);
+    }
+  }
+  @media (min-width: 600px) {
+    body {
+      background-color: rgb(152, 211, 211);
+    }
+  }
+
+  /*images */
+
+  #corners {
+  border-radius: 55px;
+  background-color: rgb(207, 199, 199);
+  padding: 2px;
+  width: 500px;
+  height: 300px;
+}
